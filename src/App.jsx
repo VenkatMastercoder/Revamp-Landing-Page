@@ -2,6 +2,7 @@ import Lottie from "lottie-react";
 import groovyWalkAnimation from "./assets/Animation.json";
 import { LogoBlack } from "./assets/img";
 
+
 function App() {
   return (
     <>
@@ -13,16 +14,16 @@ function App() {
             </div>
           </div>
           <div className="w-[90%] mx-auto grid grid-cols-1 md:grid-cols-2 h-[100%]">
-            <div className="flex flex-col justify-center items-center space-y-4 text-center">
+            <div className="flex flex-col justify-evenly md:justify-center items-center space-y-4 text-center">
               <p className="text-xl md:text-3xl font-['Poppins']">Launching Soon!</p>
               <h1 className="text-3xl md:text-5xl lg:text-7xl font-['Poppins']">TO REVAMP YOU</h1>
-              <button className="text-base md:text-xl font-['Poppins'] py-4 text-white 
+             <a href="https://chat.whatsapp.com/BhFNkq8Bjrt5KACphAtam0"><button className="text-base md:text-xl font-['Poppins'] py-4 text-white 
               bg-[#FF9F00] px-14 rounded-3xl">
                 Join our Journey
-              </button>
+              </button></a> 
             </div>
 
-            <div className="flex flex-col justify-center items-center">
+            <div className="flex flex-col justify-start items-center md:justify-center">
               <Lottie
                 animationData={groovyWalkAnimation}
                 loop={true}
